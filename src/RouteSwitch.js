@@ -4,14 +4,12 @@ import Home from './pages/Home';
 
 const RouteSwitch = () => {
   return (
-    <>
     <BrowserRouter>
-    <Routes>
-        <Route path='/' element={<Home />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </BrowserRouter>
-    </>
-  )
-}
+  );
+};
 
-export default RouteSwitch
+export default RouteSwitch;
