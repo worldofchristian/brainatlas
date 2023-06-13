@@ -85,7 +85,7 @@ const Home = () => {
 
           <p
           className='my-8 text-lg text-slate-700 text-center'
-          >Upload a .nii file and view it as a 3D rendering</p>
+          >Upload a .nii file and view it as a 3D rendering, or browse from an open source library</p>
         </div>
       </div>
     </div>
