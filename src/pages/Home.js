@@ -13,15 +13,11 @@ const Home = () => {
   const questions = [
   {
     question: 'What does BrainAtlas do?',
-    answer: 'BrainSketch processes voxel data into a suitable format for 3D rendering.',
+    answer: 'BrainAtlas processes voxel data into a suitable format for 3D rendering.',
   },
   {
     question: 'Which file formats are supported?',
     answer: 'Only .nii files are supported.',
-  },
-  {
-    question: 'Where can I get the app?',
-    answer: 'The app will be available on iOS and Android early 2024. New features can be previewed on the live demo.',
   },
 ]
 
@@ -52,7 +48,7 @@ const Home = () => {
         <div 
         className="max-w-md">
           <h1 
-          className="mb-8 text-5xl text-white font-black"
+          className="mb-8 text-5xl text-white font-bold"
           >A visualization app for fMRI data</h1>
           
           <button 
@@ -80,7 +76,7 @@ const Home = () => {
           </Player>
 
           <h2 
-          className="my-12 text-4xl text-slate-700 text-center font-black"
+          className="my-12 text-4xl text-slate-700 text-center font-bold"
           >User-friendly brain imaging</h2>
 
           <p
@@ -93,7 +89,7 @@ const Home = () => {
     <div
     className='flex flex-col items-center justify-center'>
       <h2
-      className="mt-40 text-4xl text-center font-black"
+      className="mt-40 text-4xl text-center font-bold"
       >Try it out</h2>
 
       <p
@@ -142,7 +138,7 @@ const Home = () => {
                   <div 
                   className="flex my-4 items-center justify-between">
                     <p 
-                    className="text-lg text-center"
+                    className="text-lg text-center my-12"
                     >{q.answer}</p>
                   </div>
                 </div>
